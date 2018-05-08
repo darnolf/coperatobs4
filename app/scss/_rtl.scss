@@ -1,0 +1,81 @@
+header .user-status .avatar {
+    float: left;
+}
+
+header .user-status p {
+    margin-left: 40px;
+}
+
+header .user-status a.logout {
+    margin-left: 15px;
+}
+
+.btn.rounded i.fa {
+    margin-right: 10px !important;
+    margin-left: -10px !important;
+}
+
+.fa-arrow-circle-o-right:before {
+    content: "\f190";
+}
+
+.fa-arrow-circle-o-left:before {
+    content: "\f18e";
+}
+
+.fa-long-arrow-right:before {
+    content: "\f177";
+}
+
+table.table tr:first-child th:last-child {
+    border-radius: 10px 0px 0px 0px;
+}
+
+table.table tr:first-child th:first-child {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    text-align: right;
+    font-family: 'lato';
+}
+
+.bootstrap-select .btn.dropdown-toggle.btn-default {
+    padding-right: 50px;
+    background: #fff;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.aside .navbar-nav li a {
+    background-image: url(../images/arrow-l.png);
+    background-position: 10% center;
+}
+
+.aside .navbar-nav.loaded li a {
+    background-image: none;
+}
+
+.aside .navbar-nav li a i.fa {
+    float: right;
+}
+
+.sidebar-menu {
+    left: 0px;
+    right: auto;
+}
+
+.sidebar-menu .treeview-menu>li>a {
+    padding: 10px 35px 10px 0px;
+}
+
+.agent-nav li span {
+    padding-right: 25px;
+}
+
+.custom-file-control:before {
+    left: -1px !important;
+    right: auto !important;
+}
